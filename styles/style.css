@@ -3,3 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.shadow-decoration {
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
