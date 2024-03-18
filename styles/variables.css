@@ -5,10 +5,10 @@
 :root {
   --page__font-family:  'IBM Plex mono', sans-serif;
   --page__font-size-main: 18px;
-  --page__font-size-title: 116px;
+  --page__font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --page__font-weight-title: 700;
   --page__font__title_line-height: 83%;
-  --page__font__section_line-height: 83%;
+  --page__font__section_line-height: 130%;
   --page__font_select-theme_line-height: 100%;
 
   --dark__theme-pink-color: #FF0070;

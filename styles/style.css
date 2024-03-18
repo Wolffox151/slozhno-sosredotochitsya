@@ -2,6 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  color: var(--dark-theme-text-color);
   background-color: var(--dark-theme-background-color);
   background-image: var(  --dark__theme_page_background-image);
   background-position: center;
@@ -10,6 +11,35 @@
   background-size: cover;
 }
 
+.header__theme-menu-list {
+  list-style: none;
+}
+
 .shadow-decoration {
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--dark__theme-accent-color);
+}
+
+.page__title {
+  color: var(--dark__theme_purple-color);
+  font-size: var(--page__font-size-title);
+  font-weight: var(--page__font-weight-title);
+  line-height: var(--page__font__title_line-height);
+}
+
+.header__title {
+  color: var(--dark-theme-background-color);
+  background-color: var(--dark__theme-pink-color);
+  font-weight: var(--page__font-weight-title);
+  line-height: var(--page__font__section_line-height);
+}
+
+.header__section__group__list-item {
+  line-height: var(--page__font__title_line-height);
+  font-size: var(--page__font-size-main);
+  color: var(--dark__theme-pink-color);
+  font-weight: var(--page__font-weight-title);
+}
+
+.section__group__list {
+  list-style: none;
 }
