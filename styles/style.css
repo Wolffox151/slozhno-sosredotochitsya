@@ -12,8 +12,8 @@
 }
 
 .cover {
-  display: grid;
   position: relative;
+  display: grid;
   padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   min-block-size: 100vh;
 }
@@ -252,8 +252,8 @@
   }
 
   .section__how-article-list {
-    margin-block-end: 20px;
     grid-column-start: 2;
+    margin-block-end: 20px;
   }
 
   .section__gallery {
@@ -288,10 +288,10 @@
 
 @media (width >= 1024px) {
   .header__theme-menu {
-    align-items: start;
     justify-self: center;
-    padding-block-start: 0;
+    align-items: start;
     padding-inline-start: 20px;
+    padding-block-start: 0;
   }
 
   .header__theme-menu-list {
@@ -310,9 +310,9 @@
 
   .section__what-article-list {
     display: grid;
-    grid-row-start: 2;
-    grid-column: span 3;
     grid-template-columns: repeat(3, 1fr);
+    grid-column: span 3;
+    grid-row-start: 2;
     gap: 20px;
   }
 
