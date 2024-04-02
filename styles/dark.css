@@ -1,0 +1,31 @@
+.page.theme_dark {
+  --page__background-image: url("../images/cover-image-dark.png");
+  --page__background-color: var(--color-black-1, #000028);
+  --decorated-zone-color: var(--color-pink-1, #FF0070);
+  --color-header-menu-border-hover: var(--color-pink-3, #FF007040);
+  --shadow-decoration-color: var(--color-pink-1, #FF0070);
+  --text-color: var(--color-pink-2, #F1B2CE);
+  --text-title-color: var(--color-dark-blue, #000028);
+  --accent-color: var(--color-pink-1, #FF0070);
+  --article-main-title-color: var(--color-pink-1, #FF0070);
+  --page__title-color: var(--color-purple-1, #DB00FF);
+
+  --rec-decoration-visibility: visible;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page__background-image: url("../images/cover-image-dark.png");
+    --page__background-color: var(--color-black-1, #000028);
+    --decorated-zone-color: var(--color-pink-1, #FF0070);
+    --color-header-menu-border-hover: var(--color-pink-3, #FF007040);
+    --shadow-decoration-color: var(--color-pink-1, #FF0070);
+    --text-color: var(--color-pink-2, #F1B2CE);
+    --text-title-color: var(--color-dark-blue, #000028);
+    --accent-color: var(--color-pink-1, #FF0070);
+    --article-main-title-color: var(--color-pink-1, #FF0070);
+    --page__title-color: var(--color-purple-1, #DB00FF);
+  
+    --rec-decoration-visibility: visible;
+  }
+}
