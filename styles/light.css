@@ -1,14 +1,35 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --text-title-color: var(--color-grey, #353430);
+  --text-color: var(--color-grey, #353430);
+  --accent-color: var(--color-pink-4, #FF8DCB);
+  --article-main-title-color: var(--color-grey, #353430);
+  --decorated-zone-color: var(--color-grey, #353430);
+  --color-header-menu-border-hover: var(--color-grey-2, #35343040);
+  --shadow-decoration-color: var(--color-pink-4, #FF8DCB);
+  --page__title-color: var(--color-purple-1, #DB00FF);
+  --page__background-image: url("../images/cover-image-light.png");
+  --page__background-color: var(--color-white, #FFEEF6);
+  --page__title-color: var(--color-pink-5, #FFC2E6);
+  
+  --rec-decoration-visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-title-color: var(--color-grey, #353430);
+    --text-color: var(--color-grey, #353430);
+    --accent-color: var(--color-pink-4, #FF8DCB);
+    --article-main-title-color: var(--color-grey, #353430);
+    --decorated-zone-color: var(--color-grey, #353430);
+    --color-header-menu-border-hover: var(--color-grey-2, #35343040);
+    --shadow-decoration-color: var(--color-pink-4, #FF8DCB);
+    --page__title-color: var(--color-purple-1, #DB00FF);
+    --page__background-image: url("../images/cover-image-light.png");
+    --page__background-color: var(--color-white, #FFEEF6);
+    --page__title-color: var(--color-pink-5, #FFC2E6);
+
+    --rec-decoration-visibility: hidden;
+  }
 }
 
 :root.theme-light {
