@@ -15,7 +15,8 @@
   display: grid;
   position: relative;
   padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
-  min-block-size: 100vh;
+  min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .decorated-zone::before,
@@ -57,7 +58,8 @@
 }
 
 .rec-decoration::before {
-  content: "REC";
+  content: "rec";
+  text-transform: uppercase;
   color: var(--accent-color, #FF0070);
   line-height: 139%;
 }
@@ -161,7 +163,8 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  border-block-end: 1px solid currentColor; 
 }
 
 .link:focus {
