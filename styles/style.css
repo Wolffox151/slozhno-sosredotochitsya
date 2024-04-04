@@ -234,7 +234,7 @@
   }
 
   .section:last-child {
-    padding-block-start: 60px;
+    padding-block-start: 80px;
   }
 
   .article {
@@ -257,6 +257,10 @@
   .section__how-article-list {
     margin-block-end: 20px;
     grid-column-start: 2;
+  }
+
+  .section__how-article-list:last-child {
+    margin-block-end: 0;
   }
 
   .section__gallery {

@@ -1,33 +1,31 @@
 .page.theme_light {
-  --text-title-color: var(--color-grey, #353430);
-  --text-color: var(--color-grey, #353430);
-  --accent-color: var(--color-pink-4, #FF8DCB);
-  --article-main-title-color: var(--color-grey, #353430);
-  --decorated-zone-color: var(--color-grey, #353430);
-  --color-header-menu-border-hover: var(--color-grey-2, #35343040);
-  --shadow-decoration-color: var(--color-pink-4, #FF8DCB);
-  --page__title-color: var(--color-purple-1, #DB00FF);
+  --text-title-color: var(--color__lightmode-gray, #353430);
+  --text-color: var(--color__lightmode-gray, #353430);
+  --accent-color: var(--color__lightmode-pink-contrast, #FF8DCB);
+  --article-main-title-color: var(--color__lightmode-gray, #353430);
+  --decorated-zone-color: var(--color__lightmode-gray, #353430);
+  --color-header-menu-border-hover: var(--color__lightmode-gray-opacity, #35343040);
+  --shadow-decoration-color: var(--color__lightmode-pink-contrast, #FF8DCB);
   --page__background-image: url("../images/cover-image-light.png");
-  --page__background-color: var(--color-white, #FFEEF6);
-  --page__title-color: var(--color-pink-5, #FFC2E6);
+  --page__background-color: var(--color__lightmode-white, #FFEEF6);
+  --page__title-color: var(--color__lightmode-pink-delicate, #FFC2E6);
   
   --rec-decoration-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --text-title-color: var(--color-grey, #353430);
-    --text-color: var(--color-grey, #353430);
-    --accent-color: var(--color-pink-4, #FF8DCB);
-    --article-main-title-color: var(--color-grey, #353430);
-    --decorated-zone-color: var(--color-grey, #353430);
-    --color-header-menu-border-hover: var(--color-grey-2, #35343040);
-    --shadow-decoration-color: var(--color-pink-4, #FF8DCB);
-    --page__title-color: var(--color-purple-1, #DB00FF);
+    --text-title-color: var(--color__lightmode-gray, #353430);
+    --text-color: var(--color__lightmode-gray, #353430);
+    --accent-color: var(--color__lightmode-pink-contrast, #FF8DCB);
+    --article-main-title-color: var(--color__lightmode-gray, #353430);
+    --decorated-zone-color: var(--color__lightmode-gray, #353430);
+    --color-header-menu-border-hover: var(--color__lightmode-gray-opacity, #35343040);
+    --shadow-decoration-color: var(--color__lightmode-pink-contrast, #FF8DCB);
     --page__background-image: url("../images/cover-image-light.png");
-    --page__background-color: var(--color-white, #FFEEF6);
-    --page__title-color: var(--color-pink-5, #FFC2E6);
-
+    --page__background-color: var(--color__lightmode-white, #FFEEF6);
+    --page__title-color: var(--color__lightmode-pink-delicate, #FFC2E6);
+    
     --rec-decoration-visibility: hidden;
   }
 }

@@ -1,26 +1,26 @@
 :root {
-  --color-pink-1: #FF0070;
-  --color-pink-2: #F1B2CE;
-  --color-pink-3: #FF007040;
-  --color-purple: #DB00FF;
-  --color-dark-blue: #000028;
+  --color__darkmode-pink-contrast: #FF0070;
+  --color__darkmode-pink-delicate: #F1B2CE;
+  --color__darkmode-pink-contrast-opacity: #FF007040;
+  --color__darkmode-purple: #DB00FF;
+  --color__darkmode-dark-blue: #000028;
 
-  --color-white: #FFEEF6;
-  --color-grey: #353430;
-  --color-grey-2: #35343040;
-  --color-pink-4: #FF8DCB;
-  --color-pink-5: #FFC2E6;
+  --color__lightmode-white: #FFEEF6;
+  --color__lightmode-gray: #353430;
+  --color__lightmode-gray-opacity: #35343040;
+  --color__lightmode-pink-contrast: #FF8DCB;
+  --color__lightmode-pink-delicate: #FFC2E6;
 
   --page__background-image: url("../images/cover-image-dark.png");
-  --page__background-color: var(--color-black-1, #000028);
-  --decorated-zone-color: var(--color-pink-1, #FF0070);
-  --color-header-menu-border-hover: var(--color-pink-3, #FF007040);
-  --shadow-decoration-color: var(--color-pink-1, #FF0070);
-  --text-color: var(--color-pink-2, #F1B2CE);
-  --text-title-color: var(--color-dark-blue, #000028);
-  --accent-color: var(--color-pink-1, #FF0070);
-  --article-main-title-color: var(--color-pink-1, #FF0070);
-  --page__title-color: var(--color-purple-1, #DB00FF);
+  --page__background-color: var(--color__darkmode-dark-blue, #000028);
+  --decorated-zone-color: var(--color__darkmode-pink-contrast, #FF0070);
+  --color-header-menu-border-hover: var(--color__darkmode-pink-contrast-opacity, #FF007040);
+  --shadow-decoration-color: var(--color__darkmode-pink-contrast, #FF0070);
+  --text-color: var(--color__darkmode-pink-delicate, #F1B2CE);
+  --text-title-color: var(--color__darkmode-dark-blue, #000028);
+  --accent-color: var(--color__darkmode-pink-contrast, #FF0070);
+  --article-main-title-color: var(--color__darkmode-pink-contrast, #FF0070);
+  --page__title-color: var(--color__darkmode-purple, #DB00FF);
   --page__font-family: "IBM Plex mono", monospace;
   --page__font-size-regular: 18px;
   --page__font-size-mobile-L: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
