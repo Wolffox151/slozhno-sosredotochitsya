@@ -158,6 +158,10 @@
   line-height: var(--page__line-height-L, 130%);
 }
 
+.article__paragraph:nth-child(n+3) {
+  margin-block-start: 20px;
+}
+
 .link {
   text-decoration: none;
 }
